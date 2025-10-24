@@ -1,0 +1,55 @@
+// Here are some basic definitions
+// rename to config.h and make your individual settings
+
+// Secrets
+#define SSID        "Wireless"
+#define PASSWORD    "Standemandiekanerwatvan2002"
+
+// Network settings
+#define EVCC_SERVER_IP      "192.168.1.88"
+#define EVCC_SERVER_PORT    7070
+#define EVCC_MQTT_PREFIX    "evcc"
+#define MQTT_SERVER_IP      "192.168.1.88"
+#define MQTT_SERVER_PORT    1883
+#define MQTT_SERVER_CLIENT  "evcc-display-1"
+#define MQTT_SERVER_USER    "donny"
+#define MQTT_SERVER_PASS    "DonKay2025"
+
+// EVCC references
+#define LOADPOINT       1
+#define VEHICLE         "cupra"
+#define VEHICLE_PLAN    1
+
+// Plan   
+// Plan is always set at this Soc and time for the next day
+#define PLAN_SOC    60
+#define PLAN_TIME   "06:00"
+
+// Limits
+#define MAX_HOMEBAT_POWER   5000
+#define MAX_SOLAR_POWER     6000
+#define MAX_GRID_POWER      14000
+#define MIN_WALLBOX_POWER   11500
+
+// Colors
+#define COL_BLACK           0x000000
+#define COL_WHITE           0xFFFFFF
+#define COL_MID_GREY        0x4C4C4C
+#define COL_RED             0x901010
+#define COL_GREEN           0x009407
+#define COL_INTENSE_GREEN   0x00FF17
+#define COL_BLUE            0x364AB2
+#define COL_ORANGE          0xFF7500
+#define COL_YELLOW          0xFFD000
+
+// Color Assignment
+#define COL_BUTTON_PV_ACTIVE    COL_GREEN
+#define COL_BUTTON_NOW_ACTIVE   COL_RED
+#define COL_BUTTON_PLAN_ACTIVE  COL_YELLOW
+#define COL_BUTTON_INACTIVE     COL_MID_GREY
+#define COL_CAR_SOC             COL_RED
+#define COL_LIMIT               COL_BLUE
+#define COL_BAR_CAR_SOC         COL_BLUE
+#define COL_BAR_BATTERY_SOC     COL_GREEN
+#define COL_BAR_SOLAR           COL_GREEN
+#define COL_BAR_GRID            COL_RED
