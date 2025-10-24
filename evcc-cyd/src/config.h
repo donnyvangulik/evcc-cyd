@@ -2,22 +2,22 @@
 // rename to config.h and make your individual settings
 
 // Secrets
-#define SSID        "Wireless"
-#define PASSWORD    "Standemandiekanerwatvan2002"
+#define SSID        "wireless_ssid"
+#define PASSWORD    "password"
 
 // Network settings
-#define EVCC_SERVER_IP      "192.168.1.88"
+#define EVCC_SERVER_IP      "192.168.x.xx"
 #define EVCC_SERVER_PORT    7070
 #define EVCC_MQTT_PREFIX    "evcc"
-#define MQTT_SERVER_IP      "192.168.1.88"
+#define MQTT_SERVER_IP      "192.168.x.xx"
 #define MQTT_SERVER_PORT    1883
 #define MQTT_SERVER_CLIENT  "evcc-display-1"
-#define MQTT_SERVER_USER    "donny"
-#define MQTT_SERVER_PASS    "DonKay2025"
+#define MQTT_SERVER_USER    "user"
+#define MQTT_SERVER_PASS    "password"
 
 // EVCC references
 #define LOADPOINT       1
-#define VEHICLE         "cupra"
+#define VEHICLE         "car"
 #define VEHICLE_PLAN    1
 
 // Plan   
